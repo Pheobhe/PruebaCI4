@@ -1,0 +1,59 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT=development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+# Define the base path of the application
+BASEPATH=/var/www/html/
+
+# Define the server address
+SERVER_ADDR=http://localhost:8017
+
+# app.baseURL = ''
+# If you have trouble with `.`, you could also use `_`.
+# app_baseURL = ''
+# app.forceGlobalSecureRequests = false
+# app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+# Connection details for the default database
+database.default.hostname=database
+database.default.database=libreria
+database.default.username=root
+database.default.password=una_pass
+database.default.DBDriver=MySQLi
+database.default.DBPrefix=
+database.default.port=3306
+
+# MySQL environment variables
+MYSQL_ROOT_PASSWORD=una_pass
+MYSQL_DATABASE=libreria
+MYSQL_USER=user
+MYSQL_PASSWORD=pass
+
+#--------------------------------------------------------------------
+# ENCRYPTION
+#--------------------------------------------------------------------
+
+# encryption.key =
+
+#--------------------------------------------------------------------
+# SESSION
+#--------------------------------------------------------------------
+
+# session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+# session.savePath = null
+
+#--------------------------------------------------------------------
+# LOGGER
+#--------------------------------------------------------------------
+
+logger.threshold=4
